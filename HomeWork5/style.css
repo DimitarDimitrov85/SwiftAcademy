@@ -1,0 +1,30 @@
+body{
+	background:#34495e;
+}
+
+h1{
+	text-align:center;
+	font-size:40px;
+	color:#1ffff5;
+	font-family:Verdana;
+	text-shadow:4px 4px 4px black;
+}
+
+.businessCard{
+	background:#e74c3c;
+	box-shadow:5px 5px 5px #121a21;
+	border-radius:20px 60px;
+}
+
+h2, p{
+	color:white;
+	font-family:Verdana;
+    text-shadow:5px 5px 5px  #121a21;
+}
+
+span{
+	color:#ffff00;
+	font-style:italic;
+
+}
+

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>GameStart</title>
+    <link href="style/GameStartStyle.css" rel="stylesheet" />
+    <link href="style/GameOverstyle.css" rel="stylesheet" />
+    <link href="style/GameStyle.css" rel="stylesheet" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="Untitled-1.js"></script>
+</head>
+<body>
+ <main>
+     <section id="Game">
+        <div class="Start" onclick="Start()">
+          <p>START GAME</p>
+        </div>
+     </section>
+
+   <section id="GameStart"  class="gameHiden">
+    <div class="Score">
+        <h4>Score: 0</h4><br />
+        <p class="HighScore">High score: 0</p>
+
+    </div>
+    <a href="GameStart.html">
+        <div class="Refresh">
+            <img src="image/img_72363.png" />
+        </div>
+    </a>
+    <div class="timer">
+        <div class="timer_1"></div>
+    </div>
+    <div class="PlayGround">
+        <div class="Cart cartTurnVenus " onclick="turn(event)" ></div>
+        <div class="Cart cartTurnLayer" onclick="turn(event)"></div>
+        <div class="Cart  cartTurnPlutopsb" onclick="turn(event)"></div>
+        <div class="Cart  cartTurnMercury" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnMars" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnEarth" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnJupiter" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnPlutopsb" onclick="turn(event)" ></div>
+        <div class="Cart cartTurnUranus" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnNeptune" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnVenus" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnMars" onclick="turn(event)" ></div>
+        <div class="Cart cartTurnUranus" onclick="turn(event)" ></div>
+        <div class="Cart cartTurnLayer" onclick="turn(event)" ></div>
+        <div class="Cart  cartTurnMercury" onclick="turn(event)"></div>
+        <div class="Cart  cartTurnJupiter" onclick="turn(event)"  ></div>
+        <div class="Cart  cartTurnNeptune" onclick="turn(event)"></div>
+        <div class="Cart  cartTurnEarth" onclick="turn(event)" ></div>
+    </div>
+   
+   </section>
+
+   <section id="SectionGameOver" class="gameHiden">
+         <h1>GAME OVER</h1>
+         <p class="Finalscore">Final score: 40</p>
+         <div class="try" >
+            <a href="GameStart.html">TRY AGAIN</a>
+         </div>
+   </section>
+
+ </main>
+</body>
+</html>
+       
+           
+         
+              
+        
+        
+       
+   

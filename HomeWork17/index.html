@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People contacts</title>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="MainPageHeader">
+        <h1>People Archive</h1>
+    </header>
+
+    <main class="PageMainContainer">
+        <nav class="MainPageNav">
+            <div class="EditPageButton EditPageButton--active">
+                <span class="a b" >Edit</span>
+                <span>Stop editing</span>
+            </div>
+        </nav>
+        <section class="PeopleCardWrapper">
+            <div class="PeopleCardsContainer  PeopleCardsContainerHidden">No items are added</div>
+        </section>
+        <aside class="EditPeopleWrapper EditPeopleWrapperNone">
+            <div class="TitleInputPair">
+                <label>Name:</label>
+                <input class="EditPeopleInput" id="Name">
+            </div>
+            <div class="TitleInputPair">
+                <label>Job title:</label>
+                <input class="EditPeopleInput" id="Job"  />
+            </div>
+            <div class="TitleInputPair">
+                <label>E-mail:</label>
+                <input class="EditPeopleInput" id="Email"  />
+            </div>
+            <div class="TitleInputPair">
+                <label>Phone:</label>
+                <input class="EditPeopleInput" type="number" id="Phone" />
+            </div>
+            <button id="AddOnePerson" class="AddOnePerson" onclick="AddPerson()" >+ Add person</button>
+            <button id="Save"  class="Save" onclick="NewInfo()">Save</button> 
+            <button id="Delete"  class="Delete" >DELETE</button> 
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

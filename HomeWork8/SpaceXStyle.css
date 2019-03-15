@@ -1,0 +1,652 @@
+body{
+	margin:0;
+	padding:0;
+	background:#181c1f;
+}
+/*----HEADER----*/
+.Head{
+	width:100%;
+	height:80px;
+	text-align:center;
+	position:relative;
+}
+	
+
+.Menu_1{
+	width:45%;
+    display:inline-block;
+
+	
+}	
+
+	
+
+	
+	
+.Menu_1 div{
+	display:inline-block;
+	margin-right:25px;
+	
+	
+}
+.Menu_1 a.Menu_1Link{
+	font-size:15px;
+	color:#e5e6e6;
+	font-weight:bold;
+	text-decoration:none;
+    padding-bottom:3px;
+    transition:border-bottom 0.1s linear;
+}
+
+.Menu_1 a.Menu_1Link:hover{
+	border-bottom:2px solid #ccac55;
+}
+
+
+.Menu_2{
+	width:25%;
+	display:inline-block;
+	margin-top:30px;
+}	
+
+	
+	
+	
+
+	
+.Menu_2 div{
+	display:inline-block;
+	margin:0 10px;
+	
+}
+.Menu_2 a{
+	font-size:12px;
+	color:#8b939b;
+	text-decoration:none;
+	padding-bottom:3px;
+	transition:border-bottom 0.1s linear;
+}
+.Menu_2 a:hover{
+	border-bottom:2px solid #8b939b;
+}
+	
+
+
+a.shop{
+	background:black;
+	padding:8px 15px;
+	border-radius:15px;
+	transition:box-shadow 0.1s linear;
+}
+a.shop:hover{
+	box-shadow:0px 0px 5px 3px #8b939b inset;
+}
+.ImageHead{
+	width:100%;
+	height:530px;
+}
+.textImage{
+	position:relative;
+	color:white;
+	font-size:50px;
+	width:450px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	top:-450px;
+	font-family:unset;
+}
+.textImage img{
+width:15%;
+margin-top:-80px;
+}
+/*----FALCON HEAVY----*/
+.FalconHeavy{
+	position:relative;
+    width:65%;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	top:-280px;
+}
+
+	
+.FalconHeavyInfo{
+	width:70%;
+	display:inline-block;
+	
+	
+
+}
+	
+.Info{
+	display:inline-block;
+	width:48%;
+	margin-right:9px;
+	margin-top:-40px;
+	
+}
+	
+h1{
+	color:#FFF;
+	font-size:60px;
+	border-bottom:1px dashed white;
+	padding-bottom:15px;
+	font-family:inherit;
+	font-weight:600;
+}
+	
+
+.FalconHeavyInfo p{
+	color:#b2b3b3;
+	font-size:18px;
+	
+}
+.Button{
+	width:100%;
+	
+	background:#21282b;
+	position:relative;
+	top:-260px;
+	color:#b2b3b3;
+	font-size:13px;
+	text-align:center;
+	padding:2px 0px;
+	margin-bottom:2px;
+}
+
+.Button a{
+	text-decoration:none;
+	color:#3569a4;
+	transition:border-bottom 0.1s linear;
+}
+.Button a:hover{
+	border-bottom:2px solid #3569a4;
+}
+
+.FalconHeavyButton{
+	width:28%;
+	display:inline-block;
+	margin-left:10px;
+	
+}
+.FalconHeavy img{
+	left:70%;
+	top:-380px;
+	position:relative;
+}
+
+
+/*-----PAYLOAD----*/
+.parameters{
+	position:relative;
+    width:65%;
+	height:3300px;
+	margin-left:auto;
+	margin-right:auto;
+	top:-200px;
+
+}
+	
+.payload{
+	position:relative;
+	width:45%;
+}
+	
+	
+	
+.OverArrowText{
+	color:#b2b3b3;
+	font-size:18px;
+}	
+
+h2{
+	font-size:30px;
+	color:#FFF;
+}
+.payload img{
+	width:350px;
+	position:absolute;
+}
+span{
+	margin-right:20px;
+	font-size:15px;
+	color: #585a5a;
+}
+.UnderArrowText{
+	font-size:17px;
+	color:#727474;
+}
+
+
+
+/*----SECOND STAGE----*/
+.SecondStage{
+	position:relative;
+	width:45%;
+	margin-top:250px;
+	
+	
+}
+.SecondStage span{
+	font-size:20px;
+	margin-left:-25px;
+}
+
+.SecondStage p, .FirstStage p{
+    color:#b2b3b3;
+	font-size:18px;
+}
+
+.engine, .cores{
+	width:40%;
+	height:100px;
+	display:inline-block;
+	
+}
+.burnTime{
+	width:48%;
+	height:100px;
+	display:inline-block;
+	 margin-left:10px;
+}
+
+   
+h3{
+	border-bottom:1px solid white;
+	padding-bottom:6px;
+	color:#FFF;
+	font-size:14px;
+}
+.engine p, .burnTime p{
+	color:#FFF;
+	font-size:50px;
+	font-weight:100;
+	margin-top:-10px;
+	 
+}
+
+div.burnTime span{
+	color:#FFF;
+	font-size:30px;
+	margin-left:0px;
+
+}
+p.kN{
+	font-size:50px;
+	color:#FFF;
+}
+span.knSpan{
+    color:#FFF;
+	font-size:20px;
+	margin-left:-8px;;
+}
+div.trustInVacuum span,
+div.trustInVacuum p{
+	margin-top:0px;
+}
+
+
+/*-----FIRST STAGE-----*/
+ .FirstStage{
+	 position:relative;
+	 width:45%;
+	 
+	 margin-top:50px;
+ }
+ .FirstStage span{
+     font-size:20px;
+	 margin-left:-25px;
+ }
+.engines{
+    width:38%;
+	height:100px;
+	display:inline-block;
+	margin-left:10px;
+	
+	}
+
+ .cores p, .engines p {
+        color: #FFF;
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: -10px;
+    }
+
+ p.kN_1{
+	 font-size:50px;
+	 color:#FFF;
+ }
+
+div.trustAtSeaLevel span,
+div.trustAtSeaLevel p {
+    margin-top: 0px;
+}
+span.knSpan_1{
+    color:#FFF;
+	font-size:20px;
+	margin-left:-8px;
+}
+h4{
+	color:#FFF;
+	font-size:14px;
+}
+.parameters > img{
+	position:relative;
+	left:50%;
+	 width:500px;
+	 top:-2000px;
+}
+.plus{
+	position:absolute;
+	left:655px;
+	top:70px
+}
+div.FirstStage p.trustInVacuum_1{
+	font-size:17px;
+	color:#727474;
+}
+ ul{
+	 display:none;
+	 position:absolute;
+	 width:400px;
+	  height:200px;
+	 list-style-type:none;
+	 background:rgba(255, 255, 255, 0.4);
+	 box-shadow:5px 5px 5px #1a1a1a; 
+	 padding-top:10px;
+	 padding-left:0px;
+	 
+	
+	 
+ }
+.plus > img:hover{
+	 transform:scale(0.8);
+	 cursor:pointer;
+	
+		 
+}	
+ .plus:hover ul{
+	  display:block;
+	
+	  
+	}
+	 
+	
+ 
+ li span{
+	 padding:10px 0px;
+	 border-bottom:1px solid #727474;
+	 padding-left:15px;
+}
+ li h2{
+	 color:#1a1a1a;
+	 margin-left:15px;
+ }
+ li img{
+	 float:right;
+	 margin-top:-10px;
+ }
+ li p{
+	 margin-left:15px;
+ }
+ /*---TECHNICAL OVERVIEW---*/
+ .TECHNICAL_OVERVIEW{
+     width:100%;
+	 height:250px;
+	 background:#0b0b0b;
+	 position:absolute;
+	 top:2950px;
+	
+	 
+ }
+div.TECHNICAL_OVERVIEW p{
+	 margin:30px 30px;
+	 color:#FFF;
+	 
+ }
+.heightTotalWidth{
+	position:relative;
+	display:inline-block;
+	width:22%;
+	margin-right: 20px;
+	left:20px;
+}	
+	
+.heightTotalWidth p.under{
+	font-size:13px;
+	color:#727474;
+	border-bottom:0.4px solid #727474;
+	margin-top:30px;
+}
+
+div.heightTotalWidth p{
+	margin:0px;
+}
+.meter{
+	font-size:21px;
+}
+.planet{
+	font-size:13px;
+	margin-left:4px;
+	border-bottom:2px dotted #ccac54;
+	color:#ccac54;
+	cursor:help;
+	
+}
+.second{
+	display:inline-block;
+	width:45%;
+	position:relative;
+	
+}
+.second:first-child{
+	margin-right:15px;
+}
+/*----POWERFUL ROCKET----*/
+.PowerfulRocket{
+	width:100%;
+	height:600px;
+	background:#f7f7f7;
+	position:absolute;
+	margin-top:-200px;
+	
+	
+
+}
+.PowerfulRocketHead{
+	width:60%;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:50px;
+}	
+
+.PowerfulRocketHead  h2{
+	color: #4c4d4d;
+	border-bottom:1px dashed  #656767;
+	padding-bottom:10px;
+	font-size:25px;
+	
+}
+.PowerfulRocket img{
+	margin-top:100px;
+	position:absolute;
+	left:290px;
+	}
+/*---FALCON HEAVY MILESTONES---*/	
+.FalconHeavyMilestones{
+	width:100%;
+	height:500px;
+	background:white;
+	position:relative;
+	top:400px;
+	padding-bottom:100px;
+}
+.H2 h2{
+	color: #323434;
+	margin-left:23px;
+}
+.FalconHeavyMilestonesContent{
+    width:1000px;
+	height:365px;
+	background:#f7f7f7;
+	position:relative;
+	
+}
+
+.H2{
+   width:1000px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	padding-top:20px;
+}	
+	
+
+.FirstFlight{
+	width:300px;
+	height:310px;
+	background:white;
+	display:inline-block;
+	margin-left: 23px;
+	margin-top:25px;
+	box-shadow:3px 3px 3px  #d8d9d9;
+	position:relative;
+}
+.first{
+	width:90%;
+	height:200px;
+	margin-left:20px;
+}
+	
+.FirstFlight img{
+	position:relative;
+	width:100%;
+}
+.FirstFlight a{
+	font-size:30px;
+	text-decoration:none;
+	
+	color:#656767;
+}
+.FirstFlight a:hover{
+	text-decoration:underline;
+}
+a.inside{
+	text-decoration:none;
+	font-size:11px;
+	color:blue;
+	margin-left:0px;
+}
+.FirstFlight p{
+	font-size:13px;
+	color:#656767;
+}
+	
+
+p.bottom{
+	font-size:16px;
+}
+/*----FOOTER----*/
+.footer{
+	width:1000px;
+	height:150px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:520px;
+}
+	
+.footercontent{
+	width:230px;
+	height:130px;
+	position:relative;
+	display:inline-block;
+	border-right:1px dashed #7e8181;
+	
+	
+}	
+.footercontent p{
+	color:white;
+	font-size:12px;
+	margin-top:0px;
+	margin-left:10px;
+	
+}
+.footercontent img{
+	margin-left:10px;
+}
+.footercontent a:hover{
+	text-decoration:underline;
+}
+
+.footercontent a{
+	color:#8b939b;
+	font-size:11px;
+	text-decoration:none;
+	
+}
+.footercontent:last-of-type{
+	border:none;
+}
+p.footerSpaceX{
+	font-size:11px;
+	color:#adb3b8;
+	
+}
+.pic{
+	margin-top:-55px;
+	position:absolute;
+}	
+a.footrFalcon{
+	color:#ccac55;
+}
+.conect{
+	width:100%;
+	background:black;
+	position:relative;
+	top:550px;
+	padding:20px 0px;
+}
+.nav{
+	display:inline-block;
+}
+.nav span{
+	color:#666;
+	font-size: 12px;
+	border-right:1px solid #666;
+	padding-right:30px;
+	padding-left:300px;
+}
+.nav a{
+	text-decoration:none;
+	font-size: 12px;
+	color:#adb3b8;
+	margin:0px 10px;
+}
+.nav a:hover{
+	text-decoration:underline;
+}	
+.conect > span{
+	font-size:12px;
+	margin-left:170px;
+	
+}
+
+	
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+	

@@ -1,0 +1,261 @@
+body{
+	background-image:url('../image/Layer 1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+    margin:0;
+    padding:0;
+
+}
+.timer{
+    width:760px;
+    height:16px;
+    background:rgba(255, 255, 255, 0.8);
+    margin:auto;
+    position:relative;
+    top:23px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+}
+.timer_1{
+    width:0px;
+    height:16px;
+    position:relative;
+    border-radius:10px;
+    background:#8e44ad;
+    /* animation:timer 15s 1s 1 linear; */
+}
+.PlayGround{
+    height:577px;
+    width:1127px;
+    background:rgba(255, 255, 255, 0.5);
+    position:relative;
+    margin:auto;
+    top:83px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+ 
+}
+
+
+.cartTurnVenus{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Venus32.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnMercury{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Mercury.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+}
+.cartTurnEarth{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Earth.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnPlutopsb{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Plutopsb.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnNeptune{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/neptune.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+  
+  
+.cartTurnMars{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/mars.png');
+    
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnJupiter{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/jupiter.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnLayer{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Layer 32111111.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+    
+}
+.cartTurnUranus{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/uranus.png');
+    background-size:cover;
+    opacity:1;
+   
+    transition: all 0.3s linear ;
+    
+}
+.Cart{
+    width:126px;
+    height:168px;
+    display:inline-block;
+    margin:15px  22px  0px 35px;
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius:15px;
+    background-image:url('../image/Card BG.png');
+    background-size:cover;
+    opacity:0.77;
+    
+    transform: rotateY(180deg);
+}
+  
+ .Cart:hover{
+    
+     opacity:1;
+ }   
+
+  
+  .Score{
+      width:200px;
+      height:58px;
+     background:rgba(255, 255, 255, 0.8);
+     position:absolute;
+     border-bottom-right-radius:15px;
+     box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+     text-align:center;
+  }
+   .Score h4{
+      color:#361157;
+      font-size:18px;
+      font-family:Verdana;
+      font-weight:bold;
+      margin-top:5px;
+      
+  }
+ .Score p{
+      color:#361157;
+      font-size:14px;
+      font-family:Verdana;
+      font-weight:bold;
+      margin-top:-42px;
+  }
+  .Refresh{
+      width:100px;
+      height:58px;
+      background:white;
+      box-shadow:0px 5px 5px rgba(0, 0, 0, 0.7);
+      position:relative;
+      float:right;
+      border-bottom-left-radius:15px;
+      text-align:center;
+      opacity:0.7;
+  }
+ .Refresh:hover{
+     opacity:1;
+     box-shadow:0px 5px 5px rgba(0, 0, 0, 1);
+ }
+ .Refresh img{
+      width:33px;
+      margin-top:10px;
+      transform:rotate(-45deg);
+  }
+
+  
+
+  
+  .show{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -597px;
+  }
+  .hiden, .gameHiden{
+    display: none; 
+  }  
+  
+   
+
+  @keyframes timer{
+      0%{width:0px;}
+      100%{width:100%;}
+  }
+  
+    
